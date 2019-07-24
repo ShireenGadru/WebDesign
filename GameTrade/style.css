@@ -1,0 +1,73 @@
+.container{
+    text-align: center;
+}
+
+header nav{
+    
+    margin: 20px;
+    
+
+}
+header nav a{
+   
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+   font-weight: bold;
+    padding: 40px;
+    
+}
+header nav a:hover{
+    color: #B1AEAE;
+    text-decoration: none;
+}
+.current{
+    
+    color: black;
+    
+}
+li{
+    display: inline-block;
+  
+}
+hr{
+    background-color: white;
+    width: 70%;
+    
+}
+.main h1{
+    font-size:55px;
+    color: white;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+select{
+
+    width: 35%;
+    height: 50px;
+    border-radius: 25px;
+    padding: 5px;
+    font-weight: bold;
+    color: #6B6B6B;
+
+
+}
+.buttons{
+    margin: 140px;
+    align-content: center;
+}
+button.btn{
+    width: 25%;
+    border-radius: 25px;
+    background-color: #2C2C2C;
+    padding: 7px;
+    height: 50px;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    box-shadow: 0 3px 4px black;
+}
+button.btn:hover{
+    color: #6B6B6B;
+}
