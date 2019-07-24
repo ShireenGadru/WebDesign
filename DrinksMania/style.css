@@ -1,0 +1,94 @@
+
+.Menu li{
+     display: inline;
+     
+}
+.container{
+	margin-top: 30px;
+	color: white;
+	width: 80%;
+	
+	overflow: hidden;
+}
+
+header ul{
+	padding: 0;
+    margin: 0;
+    
+}
+header a{
+    
+    text-decoration: none;
+  
+	font-size: 16px;
+	color: white;
+}
+header li{
+	
+	display: inline;
+	padding: 0 20px 0 20px;
+	text-decoration: none;
+	
+}
+header #branding{
+	float: left;
+}
+header #branding h1{
+	margin-top: 2px;
+}
+header nav{
+	float: right;
+	margin-top: 20px;
+	
+}
+.current a{
+	color: #f7a900;
+	font-weight: bold;
+}
+header a:hover{
+	color: #cccccc;
+	text-decoration: none;
+}
+hr{
+	border-color: white;
+}
+.info{
+	margin-top: 100px;
+	color: #9f6bff;
+}
+.info p{
+	width: 45%;
+}
+.details{
+	margin-top: 60px;
+	font-size: 1.4em;
+}
+#qty{
+	width: 5%;
+	display: inline;
+	margin-left: 30px;
+	text-align: center;
+}
+.add{
+	font-size: 1.4em;
+	width: 10%;
+	border-radius: 50%;
+	
+	background: white;
+	color: black;
+	font-weight: bold;
+}
+img{
+	height: 300px;
+   
+}
+.img1{
+ position: absolute;
+ top: 250px;
+ right: 400px;
+}
+
+.slidershow{
+	position: absolute;
+	left: 50%;
+}
