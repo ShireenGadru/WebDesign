@@ -1,0 +1,42 @@
+.container{
+    align:center;
+}
+.box{
+    width: 35%;;
+    height: 50%;
+    text-align: center;
+    background: rgba(255,255,255,0.4);
+    color:white;
+    margin: auto;
+    margin-top: 120px;
+    padding: 25px;
+    
+    
+}
+h1{
+   padding-bottom: 60px;
+}
+.txtfield{
+    width:250px;
+    margin: 10px;
+    height: 40px;
+    border: none;
+    padding: 5px;
+}
+button.btn{
+    background-color:  #C22C2C;
+    
+    margin: 30px;
+    width: 35%;
+    font-size: 1.4em;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 6px black;
+    border-radius: 25px;
+}
+p {
+    display: inline-flexbox;
+    text-decoration: none;
+    color: white;
+    
+}
