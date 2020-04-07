@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrap" style=" text-align: center;">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">CS TRADE</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="navbar-nav mr-auto"></div>
+                 <ul class="navbar-nav">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Market <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Inventory</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       C.C.
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Profile</a>
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <a class="dropdown-item" href="#">Sign out</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <form class="example" action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                </form>
+            </div>
+            <div class="col-md-6">
+              <ul class="nav2">
+                <li class="bar"><a href="#">Newest first</a> </li>
+                <li class="bar"> <a href="#">Popular</a></li>
+                <li class="bar"> <a href="#">Price</a></li>
+                
+              </ul>
+            </div>
+          </div>
+          <section class="items" style="margin-top:5%">
+            <div class="card-deck">
+              <div class="card">
+                <img src="img/1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">AK-47 | Asiimov</h5>
+                  <p class="card-text">It has been custom painted with a sci-fi design.</p>
+                </div>
+                <div class="card-footer">
+                  <small style="font-size: 20px;">$300</small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="img/2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Aug | Chameleon</h5>
+                  <p class="card-text">It has been custom painted with the image of a chameleon.</p>
+                </div>
+                <div class="card-footer">
+                  <small style="font-size: 20px;">$140</small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="img/3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Awp | Neo-Noir</h5>
+                  <p class="card-text"> It has been custom painted with two stylized blue-magenta women over a grayscale background.</p>
+                </div>
+                <div class="card-footer">
+                  <small style="font-size: 20px;">$200</small>
+                </div>
+              </div>
+            </div>
+            
+          </section>
+          <section class="items">
+            <div class="card-deck">
+              <div class="card">
+                <img src="img/7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">M4A4 | The Emperor</h5>
+                  <p class="card-text">It has been custom painted using the Emperor tarot card as inspiration.</p>
+                </div>
+                <div class="card-footer">
+                  <small style="font-size: 20px;">$280</small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="img/8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">SG 553 | Cyrex</h5>
+                  <p class="card-text">It has been custom painted with a high-tech design in black, white, and red.</p>
+                </div>
+                <div class="card-footer">
+                  <small style="font-size: 20px;">$90</small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="img/6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Five-Seven | Angry Mob</h5>
+                  <p class="card-text"> A brightly colored paint job inspired by street art has been applied.</p>
+                </div>
+                <div class="card-footer">
+                  <small style="font-size: 20px;">$60</small>
+                </div>
+              </div>
+            </div>
+            
+          </section>
+        </div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

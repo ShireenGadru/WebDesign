@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding:0;
+    
+    background-image: url("4.jpg");
+    
+    
+   
+    
+}
+a{
+  color: #1A1919;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #1A1919;
+  text-decoration: none;
+}
+
+.wrap{
+
+    background-color: rgba(26, 25, 25, 0.9);
+    padding-bottom: 9.2%;
+    padding-right: 1%;
+}
+
+.navbar{
+    font-size: 20px;
+    font-family: 'Do Hyeon', sans-serif;
+    
+}
+
+.welcome{
+    color: #FF9900;
+    font-family: 'Do Hyeon', sans-serif;
+    padding-top: 20%;
+    font-size: 80px;
+    padding-bottom: 4%;
+    
+}
+
+.btn1,.btn2{
+    background-color: #FF9900;
+    border: none;
+    color: #1A1919;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Do Hyeon', sans-serif;
+    margin-bottom: 3%;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  .btn1 .span1 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn1 .span1:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn1:hover .span1 {
+    padding-right: 25px;
+  }
+  
+  .btn1:hover .span1:after {
+    opacity: 1;
+    right: 0;}
+
+
+
+  .btn2 .span2 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn2 .span2:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn2:hover .span2 {
+    padding-right: 25px;
+  }
+  
+  .btn2:hover .span2:after {
+    opacity: 1;
+    right: 0;}
+    
+ form.example input[type=text] {
+      margin-top: 15%;
+      padding: 3.3px;
+      font-size: 17px;
+      border: 1px solid #ffd875;
+      float: left;
+      width: 80%;
+      background: #403f3f;
+    }
+    
+    
+form.example::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+ul.nav2 {
+  list-style-type: none;
+  margin-top: 10%;
+  padding: 0;
+  overflow: hidden;
+  color: #FF9900;
+  
+}
+
+li.bar {
+  float: right;
+  padding: 6%;
+  font-size: 20px;
+}
+
+li.bar a {
+  display: block;
+  color: #FF9900;
+  text-align: center;
+  
+  text-decoration: none;
+  
+}
+
+section.items{
+  margin-bottom: 5%;
+  
+}
+
+.card-body,.card-footer{
+  background-color: rgb(42, 43, 44);
+  color: #FF9900;
+}
+.card-footer{
+  color: white;
+}
