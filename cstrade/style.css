@@ -132,7 +132,7 @@ ul.nav2 {
 }
 
 li.bar {
-  float: right;
+  float: left;
   padding: 6%;
   font-size: 20px;
 }
